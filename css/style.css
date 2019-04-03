@@ -20,11 +20,12 @@ nav {
     Overflow: auto;
 }
 nav a {
-    color: white
+    color: white;
 }
 
 nav h1 {
     float: left;
+    padding: 15px;
 }
 nav ul {
     float: right;
@@ -39,12 +40,14 @@ nav ul li a {
     text-align: center;
 } 
  
-#navbar ul li a.current {
+#nav ul li a.current, nav ul li a:hover {
     background: #345baf;
     color: #f7c08a;
 }
 
-    
+#showcase {
+   background: url('../img/showcase.jpg')
+}    
 
 
 
