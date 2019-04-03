@@ -14,6 +14,21 @@ a {
     padding: 0 20px;
     overflow: auto;
 }
+
+text-primary{
+    color: #f7c08a;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 18px;
+    color: white;
+    background: #333;
+    padding: 13px,20px;
+    border: none;
+    curser: pointer;
+
+}
 /* navbar */
 nav {
     background: #345baf;
@@ -44,13 +59,26 @@ nav ul li a {
     background: #345baf;
     color: #f7c08a;
 }
+/* showcase */
 
 #showcase {
-   background: url('../img/showcase.jpg')
+   background: url('../img/showcase.jpg') no-repeat center center/cover;
+   height: 600px;
+   color: white;
+   text-align: center;
+   padding-top: 170px;
 }    
 
+#showcase h1 {
+    font-size: 60px;
+    line-height: 1.2em;
+}
 
-
+#showcase p {
+    font-size: 20px;
+    line-height: 1.7em;
+    padding-bottom: 20px;
+}
 
 
 
