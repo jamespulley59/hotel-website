@@ -1,9 +1,10 @@
-l/* reset */ 
+/* reset */ 
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
+
 /* utility */
 a {
     text-decoration: none;
@@ -20,7 +21,7 @@ h1, h2, h3 {
     overflow: auto;
 }
 
-text-primary{
+.text-primary{
     color: #f7c08a;
 }
 
@@ -31,8 +32,12 @@ text-primary{
     background: #333;
     padding: 13px,20px;
     border: none;
-    curser: pointer;
+    cursor: pointer;
+}
 
+.bg-dark {
+    background: #333;
+    color: white
 }
 /* navbar */
 nav {
@@ -84,14 +89,14 @@ nav ul li a {
     line-height: 1.7em;
     padding-bottom: 20px;
 }
-/* home info /
-*home-info {
+/* home info */
+#home-info {
    height: 400px; 
 }
-home-info .info-img {
+#home-info .info-img {
     float: left;
     width: 50%;
-    baackground: url('../img/photo-1.jpg') no repeat;
+    background: url('../img/photo-1.jpg') no-repeat;
     min-height: 100%;
 }
 #home-info .info-content {
@@ -101,10 +106,12 @@ home-info .info-img {
     text-align: center;
     padding: 50px 30px;
     overflow: hidden;
+    
 }
 
-*home-info .info-content p {
+#home-info .info-content p {
 margin-bottom: 30px;
+
 }
 
 
