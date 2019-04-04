@@ -6,6 +6,9 @@
 }
 
 /* utility */
+.clr {
+    clear: both;
+}
 a {
     text-decoration: none;
 }
@@ -45,11 +48,19 @@ p {
 }
 .bg-dark {
     background: #333;
-    color: white
+    color: white;
+}
+.bg-light {
+    background: #f4f4f4;
+    color: #333;
+}
+.bg-primary {
+    background: #f7c08a;
+    color: #333;
 }
 /* navbar */
 nav {
-    background: #345baf;
+    background: #333;
     Overflow: auto;
 }
 nav a {
@@ -124,6 +135,10 @@ margin-bottom: 30px;
     width: 33.3%;
     padding: 50ox;
     text-align: center;
+}
+footer {
+    text-align: center;
+    padding: 1px;
 }
 
 
