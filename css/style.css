@@ -45,6 +45,7 @@ p {
 
 .text-primary{
     color: #f7c08a;
+  ...  
 }
 
 .btn {
