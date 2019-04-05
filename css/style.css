@@ -45,7 +45,7 @@ p {
 
 .text-primary{
     color: #f7c08a;
-  ...  
+ 
 }
 
 .btn {
@@ -152,9 +152,9 @@ margin-bottom: 30px;
 .box {
     float: left;
     width: 33.3%;
-    padding: 50ox;
+    padding: 50px;
     text-align: center;
-    min-height: 260
+    min-height: 300px;
 }
 /*  about info */
 #about-info .info-left {
@@ -189,12 +189,12 @@ margin-bottom: 30px;
     padding-bottom: 40px;
     font-size: 40px;
 }
-#estimonials .testimonials {
+#testimonials .testimonial {
     padding: 20px;
     margin-bottom: 40px;
     border-radius: 5px;
 }
-#testimonials .testimonials img {
+#testimonials .testimonial img {
     width: 100px;
     float: left;   
     margin-right: 20px;
@@ -202,7 +202,7 @@ margin-bottom: 30px;
 }
 /* contact */
 #contact-form h1 {
-    font-size:40px;
+    font-size: 40px;
     line-height: 1.2em;    
 }
 #contact-form label {
@@ -212,7 +212,7 @@ margin-bottom: 30px;
 #contact-form input, #contact-form textarea {
     width: 100%;
     padding: 10px;
-    dorder: 1px #ddd solid;
+    border: 1px #ddd solid;
 }
 #contct-form textarea {
     height: 200px;
@@ -221,12 +221,12 @@ margin-bottom: 30px;
     outline: none;
     border-color: #f7c08a;
 }
-
-
-
 footer {
     text-align: center;
     padding: 1px;
+    background: #444;
+    color: white
+
 }
 
 
