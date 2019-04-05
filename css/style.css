@@ -9,6 +9,9 @@ body{
 }
 
 /* utility */
+.form-group {
+    margin-bottom: 20px;
+}
 .py-1 {
     padding: 10px 0;
 }
@@ -53,7 +56,10 @@ p {
     border: none;
     cursor: pointer;
 }
-
+.btn:hover {
+    background: #f7c08a;
+    color: white;
+}
 .btn-light {
     background: #f4f4f4;
     color: #333;
@@ -196,9 +202,26 @@ margin-bottom: 30px;
 /* contact */
 #contact-form h1 {
     font-size:40px;
-    line-height: 1.2em;
-    
+    line-height: 1.2em;    
 }
+#contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+#contact-form input, #contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    dorder: 1px #ddd solid;
+}
+#contct-form textarea {
+    height: 200px;
+}
+#contact-form input:focus, #contact-form textarea:focus {
+    outline: none;
+    border-color: #f7c08a;
+}
+
+
 
 footer {
     text-align: center;
